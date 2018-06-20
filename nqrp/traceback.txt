@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 32, in script
+    case "..."
+Exception: Sayer 'case' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 32, in script
+    case "..."
+  File "/Users/Case 1/Developer/renpy-7.0.0-sdk/renpy/ast.py", line 624, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/Users/Case 1/Developer/renpy-7.0.0-sdk/renpy/ast.py", line 537, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'case' is not defined.
+
+Darwin-17.6.0-x86_64-i386-64bit
+Ren'Py 7.0.0.196
+nqrp 1.0
+Tue Jun 19 18:26:45 2018
